@@ -1,0 +1,9 @@
+@media(max-width: 834px){
+    .section1text{
+        font-size: 20px;
+    
+    }
+    .third{
+        display: none;
+    }
+}

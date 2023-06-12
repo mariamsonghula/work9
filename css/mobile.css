@@ -1,0 +1,13 @@
+@media(max-width: 375px){
+    .fa-bars{
+        display: block;
+        font-size: 24px;
+    }
+    .headernav{
+        display: none;
+    }
+    
+    .section1text{
+        font-size: 14px;
+}
+}

@@ -1,0 +1,152 @@
+/* font-family: 'Kanit', sans-serif; */
+/* font-family: 'Pridi', serif; */
+/* font-family: 'ABeeZee', sans-serif; */
+/* header  */
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+header{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    padding: 11px 31px 7px 98px;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+.fa-bars{
+    display: none;
+}
+.headerlogo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logotext{
+    font-family: 'Pridi', serif;
+    font-size: 18px;
+    color: #FA793C;
+}
+.headernav{
+    display: flex;
+    padding-left: 400px;
+      
+}
+.headerul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;    
+}
+.headerli{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 16px;
+}
+.fa-circle-user{
+    display: flex;
+    align-items: center;
+}
+
+/* section  */
+
+.section1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    padding: 151px 778px 233px 130px;
+    background-image: url("../image/headerphoto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.section1h2{
+    width: 322px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+.section1text{
+    width: 532px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+   
+}
+.DISCOVERY{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    padding-top: 33px;
+    padding-left: 40px;
+}
+/* section2  */
+.section2{
+    padding: 20px 40px ;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  
+}
+.section2div{
+    border: 1px solid black;
+    margin-top: 34px; 
+}
+.divphoto1{
+    width: 340px;
+}
+.divtext{
+    margin-top: 18px;
+    padding-inline: 18px;
+    font-family: 'Kanit', sans-serif;
+      font-size: 20px;
+}
+.divindiv{
+    display: flex;
+    gap: 13px;
+    margin-top: 15px;
+    margin-inline: 18px;
+    margin-bottom: 23px;
+    font-family: 'Kanit', sans-serif;
+}
+span{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* section3 */
+.PHOTOGRAPHY{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    margin-bottom: 34px;
+    
+
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    padding: 67px 778px 233px 45px;
+    
+}
+/* footer  */
+footer{
+    display: flex; 
+    justify-content: center;
+    height: 100px;
+    background-color: black;
+}
+.footerdiv{
+    display: flex; 
+    align-items: center;
+    gap: 15px;
+}
+.footerp{
+    color: #FFFFFF;
+}
